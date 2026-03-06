@@ -1,91 +1,86 @@
-TourJet – AI Powered Smart Tour Management Platform
+# ✈️ TourJet – AI Powered Tour Management Platform
 
-TourJet is an AI-driven web application designed to simplify tour planning, trip management, and expense tracking for both organizers and travelers. The platform provides a centralized system where trip organizers can plan itineraries, manage members, track expenses, and analyze travel data, while members can easily view trip details and collaborate throughout the journey.
+**TourJet** is an AI-powered web application designed to simplify tour planning, trip management, and expense tracking.  
+It provides a centralized platform where **tour organizers can manage trips efficiently** and **members can collaborate and stay updated with travel details.**
 
-Key Features
-Organizer Dashboard
+---
 
-A centralized dashboard that allows trip organizers to manage tour packages, monitor active trips, track member participation, and oversee overall tour activities efficiently.
+## 🚀 Features
 
-AI Route Planner
+### 📊 Organizer Dashboard
+A centralized dashboard for tour organizers to manage tour packages, track active trips, monitor members, and oversee trip expenses.
 
-Generates intelligent travel estimations including distance, travel time, and estimated costs between locations. The system also visualizes routes and nearby points of interest using interactive maps.
+### 🧠 AI Route Planner
+Generates intelligent travel estimations such as **distance, travel duration, and cost predictions** between locations. Routes and nearby points of interest are visualized using interactive maps.
 
-AI Expense Scanner
+### 🧾 AI Expense Scanner
+Upload receipts like **food bills, tickets, or travel invoices**, and the AI automatically extracts relevant details to log expenses efficiently.
 
-Users can upload travel receipts such as tickets, food bills, or hotel invoices. The AI automatically extracts relevant information and logs expenses for easy budget tracking.
+### 🗺 Trip & Itinerary Management
+Create detailed **day-wise itineraries**, manage trip members through invite links, and organize all trip-related information in one place.
 
-Trip & Itinerary Management
+### 📈 Budgeting & Analytics
+Track expenses category-wise and receive **AI-powered insights** to optimize travel budgets and understand spending patterns.
 
-Organizers can create detailed day-wise itineraries, manage trip members through invite links, and maintain all trip-related information in one place.
+### 👥 Member Collaboration
+Trip members can view itineraries, track shared expenses, and collaborate throughout the trip.
 
-Budgeting & Expense Analytics
+### 🎨 Responsive UI
+A modern and responsive interface designed to work smoothly on **desktop and mobile devices**, with support for **light and dark themes**.
 
-Provides category-wise expense tracking along with AI-powered insights to help organizers optimize travel budgets and understand spending patterns.
+---
 
-Member Collaboration
+## 🛠 Technology Stack
 
-Trip members can access trip information, view shared expenses, and collaborate during the journey. Future versions will include real-time group chats and polls.
+### Frontend
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Library:** React 18
+- **Styling:** Tailwind CSS
+- **Component Library:** ShadCN UI
 
-Responsive User Interface
+### Backend
+- **Runtime:** Node.js
+- **Architecture:** API Routes within Next.js
+- **AI Integration:** Genkit
 
-A clean and modern interface optimized for both desktop and mobile devices, with support for light and dark themes.
+### Other Tools
+- **AI Provider:** Google AI
+- **Maps:** Leaflet + React Leaflet
+- **Icons:** Lucide React
+- **Charts:** Recharts
 
-Technology Stack
-Frontend
+---
 
-Framework: Next.js 15 (App Router)
+## 🎯 UI / UX Focus
 
-Language: TypeScript
+- **Role-Based Interface** – Different experiences for organizers and trip members.
+- **Data-Centric Dashboards** – Clear visualization of trip data and expenses.
+- **Fully Responsive Design** – Works seamlessly across desktop and mobile devices.
+- **Efficient Workflow** – Simplifies trip planning and expense management.
 
-Library: React 18
+---
 
-Styling: Tailwind CSS
+## 🔮 Future Enhancements
 
-UI Components: ShadCN UI
+- 💬 Real-time **group chat** for trip members  
+- 🔗 **QR Code / Invite link** system for joining trips  
+- 📸 **Photo sharing and travel memories section**  
+- 🗄 Integration with **Firebase / MongoDB database**  
+- 🔐 Secure authentication using **NextAuth or Firebase Auth**
 
-Backend
+---
 
-Runtime: Node.js
+## 📌 Project Status
 
-Architecture: Integrated API routes within Next.js
+🚧 **Currently under active development**
 
-AI Integration: Genkit
+TourJet is continuously evolving with improvements in **AI-based travel planning, expense tracking, and collaborative travel management**.
 
-Additional Tools
+---
 
-AI Provider: Google AI
+## 👨‍💻 Author
 
-Maps & Geolocation: Leaflet + React Leaflet
-
-Icons: Lucide React
-
-Data Visualization: Recharts
-
-UI / UX Design Principles
-
-Role-Based Interface: Different experiences for Tour Organizers and Trip Members.
-
-Data-Centric Dashboard: Clear visualization of travel data and expenses.
-
-Responsive Layout: Seamless experience across desktops, tablets, and mobile devices.
-
-Optimized Workflow: Reduces manual effort for planning trips and managing expenses.
-
-Future Enhancements
-
-Real-time group chat system for trip members.
-
-QR Code / Invite Link system for easy trip joining.
-
-Photo sharing and memory albums for travelers.
-
-Integration with a persistent database (Firebase / MongoDB).
-
-Secure authentication system using NextAuth or Firebase Authentication.
-
-Project Status
-
-🚧 Currently under active development.
-
-The project is continuously evolving with improvements in AI-powered features, travel analytics, and collaborative tools for modern tour management.
+**Deepak J**  
+B.Tech – Artificial Intelligence & Data Science  
+GitHub: https://github.com/DeepakJD1226
