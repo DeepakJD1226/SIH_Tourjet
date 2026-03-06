@@ -1,0 +1,86 @@
+@import "leaflet/dist/leaflet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 48 33% 94%; /* Light Parchment/Khaki */
+    --foreground: 20 14% 12%; /* Dark Charcoal */
+    --card: 0 0% 100%;
+    --card-foreground: 20 14% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 12%;
+    --primary: 24 93% 52%; /* Vibrant Saffron/Orange */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 48 10% 90%;
+    --secondary-foreground: 20 14% 12%;
+    --muted: 48 10% 90%;
+    --muted-foreground: 20 10% 40%;
+    --accent: 142 76% 36%; /* Green */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 48 10% 85%;
+    --input: 48 10% 85%;
+    --ring: 24 93% 52%;
+    --chart-1: 24 93% 52%;
+    --chart-2: 142 76% 36%;
+    --chart-3: 20 14% 30%;
+    --chart-4: 48 10% 80%;
+    --chart-5: 20 14% 50%;
+    --sidebar-background: 90 40% 15%; /* Dark Green */
+    --sidebar-foreground: 48 33% 96%;
+    --sidebar-primary: 24 93% 52%; /* Saffron/Orange for active items */
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 90 40% 20%;
+    --sidebar-accent-foreground: 48 33% 96%;
+    --sidebar-border: 90 40% 20%;
+    --sidebar-ring: 24 93% 52%;
+  }
+
+  .dark {
+    --background: 20 14% 10%;
+    --foreground: 48 33% 96%;
+    --card: 20 14% 10%;
+    --card-foreground: 48 33% 96%;
+    --popover: 20 14% 10%;
+    --popover-foreground: 48 33% 96%;
+    --primary: 26 95% 58%; /* Brighter Saffron/Orange for dark mode */
+    --primary-foreground: 20 14% 10%;
+    --secondary: 20 14% 15%;
+    --secondary-foreground: 48 33% 96%;
+    --muted: 20 14% 15%;
+    --muted-foreground: 48 10% 60%;
+    --accent: 142 71% 45%; /* Brighter green for dark mode */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 20 14% 15%;
+    --input: 20 14% 15%;
+    --ring: 26 95% 58%;
+    --chart-1: 26 95% 58%;
+    --chart-2: 142 71% 45%;
+    --chart-3: 48 33% 80%;
+    --chart-4: 20 14% 30%;
+    --chart-5: 48 33% 60%;
+    --sidebar-background: 90 40% 8%; /* Even Darker Green */
+    --sidebar-foreground: 48 33% 96%;
+    --sidebar-primary: 26 95% 58%;
+    --sidebar-primary-foreground: 20 14% 8%;
+    --sidebar-accent: 90 40% 15%;
+    --sidebar-accent-foreground: 48 33% 96%;
+    --sidebar-border: 90 40% 15%;
+    --sidebar-ring: 48 33% 80%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
